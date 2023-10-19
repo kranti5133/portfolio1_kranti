@@ -1,0 +1,97 @@
+
+
+*{
+ 	box-sizing: border-box;
+ 	margin: 0px;
+ 	font-family: sans-serif;
+}
+.navmenu{
+	font-size: 20px;
+	color: red;
+	font-weight: bolder;
+}
+
+.logo{
+	font-size: 35px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: palevioletred;
+}
+.section-menu{
+	position: relative;
+	top:100%
+
+}
+/*.section-menu div
+{
+	height: 400px;
+	width: 100%;
+	border: 5px solid red;
+*/
+}
+.navbar{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	z-index: 3;
+	width: 100%;
+}
+#home{
+	height: 500px;
+	width: 100%;
+	background-image: url("https://lexnow.io/wp-content/uploads/2022/08/animation_640_l7anjlkz.gif");
+	background-repeat: no-repeat;
+	background-position: 100% 90%;
+	position: relative;
+}
+.homeinfo
+{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 400px;
+	width: 800px;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.ginfo
+{
+	font-variant: small-caps;
+}
+.myname
+{
+	font-family: bolder;
+	color: skyblue;
+	font-size: 30px;
+}
+.fullstack
+{
+	color: orangered;
+}
+.resumebutton
+{
+	border: none;
+	height: 50px;
+	width: 140px;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+	transition-duration: 1s;
+}
+.resumebutton:hover
+{
+	transform: scale(1.1);
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+index.css
+Displaying index.css.
